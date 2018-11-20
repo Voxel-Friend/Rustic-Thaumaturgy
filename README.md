@@ -1,4 +1,4 @@
-RusticThaumaturgy
+# RusticThaumaturgy
 -----------------
 
 A Cross-compatability mod that adds Rustic furniture crafted with Thaumcraft wood, some new farmables (with research), as well as aspects to Rustic's items. Maybe a golem as well... 
