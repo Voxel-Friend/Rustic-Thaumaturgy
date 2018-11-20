@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north":	{ "model": "rusticthaumaturgy:chair_greatwood" },
+		"facing=east":	{ "model": "rusticthaumaturgy:chair_greatwood", "y": 90},
+		"facing=south":	{ "model": "rusticthaumaturgy:chair_greatwood", "y": 180 },
+		"facing=west":	{ "model": "rusticthaumaturgy:chair_greatwood", "y": 270 }
+	}
+}

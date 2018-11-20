@@ -1,0 +1,18 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "forge:fluid",
+		"transform": "forge:default-item"
+	},
+	"variants": {
+		"cinderfire_wort": [{
+			"custom": { "fluid": "cinderfire_wort" }
+		}],
+		"shimmerdew_wort": [{
+			"custom": { "fluid": "shimmerdew_wort" }
+		}],
+		"viscous_wort": [{
+			"custom": { "fluid": "viscous_wort" }
+	    }]
+	}
+}

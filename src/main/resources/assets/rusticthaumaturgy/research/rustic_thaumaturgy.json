@@ -1,0 +1,170 @@
+{
+	"entries": [
+		{
+			"key": "RT_BASE",
+			"name": "research.RT_BASE.title",
+			"icons": ["rustic:brewing_barrel"],
+			"category": "RUSTIC_THAUMATURGY", "location": [0,0],
+			"parents": ["UNLOCKAUROMANCY"],
+			"meta": ["ROUND"],
+			"stages": [
+				{
+					"text": "research.RT_BASE.stage.1",
+					"recipes": ["RusticThaumaturgy:greatwood_chair", "RusticThaumaturgy:silverwood_chair", "RusticThaumaturgy:greatwood_table", "RusticThaumaturgy:silverwood_table", "Rustic:brewing_barrel"],
+                    "required_item":["rustic:brewing_barrel;1"],
+                    "reward_item": [ "rustic:brewing_barrel"]
+				},
+				{
+					"text": "research.RT_BASE.stage.2",
+                    "recipes": ["RusticThaumaturgy:greatwood_chair", "RusticThaumaturgy:silverwood_chair", "RusticThaumaturgy:greatwood_table", "RusticThaumaturgy:silverwood_table", "Rustic:brewing_barrel"]					
+				}
+			]
+
+        },
+		{
+			"key": "RT_CINDERMOTE",
+			"name": "research.RT_CINDERMOTE.title",
+			"icons": ["rusticthaumaturgy:textures/items/cindermote.png"],
+			"category": "RUSTIC_THAUMATURGY", "location": [-2,-2],
+			"parents": ["RT_BASE", "!PLANTCINDERPEARL"],
+			"meta": ["ROUND" , "HIDDEN"],
+			"stages": [
+				{
+					"text": "research.RT_CINDERMOTE.stage.1",
+					"required_item":["thaumcraft:cinderpearl;10"]
+
+				},
+				{
+					"text": "research.RT_CINDERMOTE.stage.2",
+					"required_research":["LAMPGROWTH"]
+				},
+				{
+					"text": "research.RT_CINDERMOTE.stage.3",
+					"recipes": ["rusticthaumaturgy:cindermote_seeds"]
+				}
+			]
+        },
+		{
+			"key": "RT_SHIMMERPETAL",
+			"name": "research.RT_SHIMMERPETAL.title",
+			"icons": ["rusticthaumaturgy:textures/items/shimmerpetal.png"],
+			"category": "RUSTIC_THAUMATURGY", "location": [0,-2],
+			"parents": ["RT_BASE", "!PLANTSHIMMERLEAF"],
+			"meta": ["ROUND" , "HIDDEN"],
+			"stages": [
+				{
+					"text": "research.RT_SHIMMERPETAL.stage.1",
+					"required_item":["thaumcraft:shimmerleaf;10"]
+
+				},
+				{
+					"text": "research.RT_SHIMMERPETAL.stage.2",
+					
+					"required_research":["LAMPGROWTH"]
+				},
+				{
+					"text": "research.RT_SHIMMERPETAL.stage.3",
+					"recipes": ["rusticthaumaturgy:shimmerpetal_bulb"]
+				}
+			]
+        },
+		{
+			"key": "RT_VISCAP",
+			"name": "research.RT_VISCAP.title",
+			"icons": ["rusticthaumaturgy:textures/items/viscap.png"],
+			"category": "RUSTIC_THAUMATURGY", "location": [2,-2],
+			"parents": ["RT_BASE", "!PLANTVISHROOM"],
+			"meta": ["ROUND" , "HIDDEN"],
+			"stages": [
+				{
+					"text": "research.RT_VISCAP.stage.1",
+					"required_item":["thaumcraft:vishroom;10"]
+
+				},
+				{
+					"text": "research.RT_VISCAP.stage.2",
+					"required_research":["LAMPGROWTH"]
+				},
+				{
+					"text": "research.RT_VISCAP.stage.3",
+					"recipes": ["rusticthaumaturgy:viscap_spores"]
+				}
+			]
+        },
+        {
+			"key": "RT_CINDERFIRE",
+			"name": "research.RT_CINDERFIRE.title",
+			"icons": ["rustic:fluid_bottle;1;0;{Fluid: {FluidName: cinderfire_whiskey, Amount: 1000}}"],
+			"category": "RUSTIC_THAUMATURGY", "location": [-2,-4],
+			"parents": ["INFUSION", "RT_CINDERMOTE@1"],
+			"meta": ["ROUND" , "HIDDEN"],
+			"stages": [
+				{
+					"text": "research.RT_CINDERFIRE.stage.1"
+				}
+			],
+			"addenda": [
+                {
+                    "text": "research.RT_CINDERFIRE.cindermote",
+					"required_research":["RT_CINDERMOTE"]
+                }
+            ]
+
+        },
+		{
+			"key": "RT_SHIMMERDEW",
+			"name": "research.RT_SHIMMERDEW.title",
+			"icons": ["rustic:fluid_bottle;1;0;{Fluid: {FluidName: shimmerdew_spirits, Amount: 1000}}"],
+			"category": "RUSTIC_THAUMATURGY", "location": [0,-4],
+			"parents": ["INFUSION" , "RT_SHIMMERPETAL@1"],
+			"meta": ["ROUND" , "HIDDEN"],
+			"stages": [
+				{
+					"text": "research.RT_SHIMMERDEW.stage.1"
+				}
+			],
+			"addenda": [
+                {
+                    "text": "research.RT_SHIMMERDEW.shimmerpetal",
+					"required_research":["RT_SHIMMERPETAL"]
+                }
+            ]
+
+        },
+		{
+			"key": "RT_VISCOUS",
+			"name": "research.RT_VISCOUS.title",
+			"icons": ["rustic:fluid_bottle;1;0;{Fluid: {FluidName: viscous_brew, Amount: 1000}}"],
+			"category": "RUSTIC_THAUMATURGY", "location": [2,-4],
+			"parents": ["INFUSION", "RT_VISCAP@1"],
+			"meta": ["ROUND" , "HIDDEN"],
+			"stages": [
+				{
+					"text": "research.RT_VISCOUS.stage.1"
+				}
+			],
+			"addenda": [
+                {
+                    "text": "research.RT_VISCOUS.viscap",
+					"required_research":["RT_VISCAP"]
+                }
+            ]
+
+        },
+		{
+			"key": "RT_MATSTUDIRONWOOD",
+			"name": "research.RT_MATSTUDIRONWOOD.title",
+			"icons": [ "rustic:log;1;1;" ],
+			"category": "RUSTIC_THAUMATURGY", "location": [ -4, -4 ],
+			"parents": [ "MATSTUDWOOD", "MINDCLOCKWORK" ],
+			"meta": [ "ROUND", "HIDDEN" ],
+			"stages": [
+				{
+					"text": "research.RT_MATSTUDIRONWOOD.stage.1",
+					"required_research":["f_RT_IRONWOOD"]
+        }
+			]
+		}
+
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north":	{ "model": "rusticthaumaturgy:chair_silverwood" },
+		"facing=east":	{ "model": "rusticthaumaturgy:chair_silverwood", "y": 90},
+		"facing=south":	{ "model": "rusticthaumaturgy:chair_silverwood", "y": 180 },
+		"facing=west":	{ "model": "rusticthaumaturgy:chair_silverwood", "y": 270 }
+	}
+}

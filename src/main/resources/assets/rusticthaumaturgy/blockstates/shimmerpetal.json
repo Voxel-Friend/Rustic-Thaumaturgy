@@ -1,0 +1,21 @@
+{
+    "forge_marker": 1,
+    "defaults":
+    {
+        "model": "cross"
+    },
+    "variants":
+    {
+        "age":
+        {
+            "0": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage0" } },
+            "1": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage0" } },
+            "2": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage0" } },
+            "3": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage1" } },
+            "4": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage1" } },
+            "5": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage2" } },
+            "6": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage2" } },
+            "7": { "textures": { "cross": "rusticthaumaturgy:blocks/shimmerpetal_stage3" } }
+        }
+    }
+}

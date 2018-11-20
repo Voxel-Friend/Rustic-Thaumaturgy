@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rusticthaumaturgy",
+  "name": "Rustic Thaumaturgy",
+  "description": "A mod that adds some Thaumcraft compatability to Rustic.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Voxel-Friend"],
+  "credits": "MrCrayfish, WolfieWaffle, and TheRealStu",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [ "thaumcraft", "rustic" ]
+}
+]
