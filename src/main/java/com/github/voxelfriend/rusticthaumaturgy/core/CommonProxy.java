@@ -962,7 +962,7 @@ public class CommonProxy {
                         ),
                         11045996,
                         6,
-                        3,
+                        2,
                         1,
                         new ItemStack(
                                 ModBlocks.PLANKS,
