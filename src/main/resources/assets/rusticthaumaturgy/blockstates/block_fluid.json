@@ -13,6 +13,15 @@
 		}],
 		"viscous_wort": [{
 			"custom": { "fluid": "viscous_wort" }
+	    }],
+		"cinderfire_whiskey": [{
+			"custom": { "fluid": "cinderfire_whiskey" }
+	    }],
+		"shimmerdew_spirits": [{
+			"custom": { "fluid": "shimmerdew_spirits" }
+	    }],
+		"viscous_brew": [{
+			"custom": { "fluid": "viscous_brew" }
 	    }]
 	}
 }

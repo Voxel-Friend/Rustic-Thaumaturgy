@@ -37,9 +37,13 @@ public class RTConfiguration {
     @RequiresMcRestart
     public static boolean canBonemealRTCrops = false;
     
-    @Comment({"Set to true to enable to vis crystal candles. WARNING:WIP"})
+    @Comment({"Set to true to enable to vis crystal candles."})
     @RequiresMcRestart
-    public static boolean enableEssentiaCandles = false;
+    public static boolean enableEssentiaCandles = true;
+    
+    @Comment({"Set to true to enable to vis crystal candles from Ice and Fire. WARNING:WIP"})
+    @RequiresMcRestart
+    public static boolean enableIceFireEssentiaCandles = false;
     
     @Comment({"Set to true to enable to Rustic styled Thaumcraft colored candles. WARNING:WIP"})
     @RequiresMcRestart

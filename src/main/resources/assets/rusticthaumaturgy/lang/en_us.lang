@@ -113,11 +113,13 @@ research.RT_BASE.stage.2=I see other people and their mundane furniture, and I s
 
 
 
-research.RT_CANDLES.title=The Crystal Sconce (WIP - Unimplemented)
+research.RT_CANDLES.title=The Crystal Sconce
 
-research.RT_CANDLES.stage.1=Placeholder Text (WIP - Unimplemented)
+research.RT_CANDLES.stage.1= I wonder if there is any way to create a magical light source...
 
-research.RT_CANDLES.stage.2=Placeholder Text 2: Electric Boogaloo (WIP - Unimplemented)
+research.RT_CANDLES.stage.2=Turns out I can plop any essentia crystal at all onto a candlestick and imbue it with aer and ignis to create a fancy light source. Neat!
+
+research.f_RT_CANDLES.text=Examine Rustic Candles
 
 
 

@@ -164,6 +164,24 @@
 					"required_research":["f_RT_IRONWOOD"]
         }
 			]
+		},
+		{
+			"key": "RT_CANDLES",
+			"name": "research.RT_CANDLES.title",
+			"icons": [ "rustic:candle" ],
+			"category": "RUSTIC_THAUMATURGY", "location": [ 4, -4 ],
+			"parents": ["UNLOCKAUROMANCY" ],
+			"meta": [ "ROUND", "HIDDEN" ],
+			"stages": [
+				{
+					"text": "research.RT_CANDLES.stage.1",
+					"required_research":["f_RT_CANDLES"]
+                },
+				{
+					"text": "research.RT_CANDLES.stage.2",
+					"recipes": ["rusticthaumaturgy:candle_ordo"]
+                }
+			]
 		}
 
 	]

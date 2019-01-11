@@ -1,9 +1,9 @@
 {
 	"variants": {
-		"facing=north":	{ "model": "rusticthaumaturgy:candle_wall_aer" },
-		"facing=east":	{ "model": "rusticthaumaturgy:candle_wall_aer", "y": 90},
-		"facing=south":	{ "model": "rusticthaumaturgy:candle_wall_aer", "y": 180 },
-		"facing=west":	{ "model": "rusticthaumaturgy:candle_wall_aer", "y": 270 },
-		"facing=up":	{ "model": "rusticthaumaturgy:candle_aer" }
+		"facing=north":	{ "model": "rusticthaumaturgy:candle_ordo_wall" },
+		"facing=east":	{ "model": "rusticthaumaturgy:candle_ordo_wall", "y": 90},
+		"facing=south":	{ "model": "rusticthaumaturgy:candle_ordo_wall", "y": 180 },
+		"facing=west":	{ "model": "rusticthaumaturgy:candle_ordo_wall", "y": 270 },
+		"facing=up":	{ "model": "rusticthaumaturgy:candle_ordo" }
 	}
 }

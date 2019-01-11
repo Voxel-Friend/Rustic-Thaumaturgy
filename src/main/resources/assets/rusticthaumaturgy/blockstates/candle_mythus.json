@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"facing=north":	{ "model": "rusticthaumaturgy:candle_mythus_wall" },
+		"facing=east":	{ "model": "rusticthaumaturgy:candle_mythus_wall", "y": 90},
+		"facing=south":	{ "model": "rusticthaumaturgy:candle_mythus_wall", "y": 180 },
+		"facing=west":	{ "model": "rusticthaumaturgy:candle_mythus_wall", "y": 270 },
+		"facing=up":	{ "model": "rusticthaumaturgy:candle_mythus" }
+	}
+}

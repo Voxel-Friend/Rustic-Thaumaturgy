@@ -103,6 +103,9 @@ public class ModBlocksRT {
 	public static BlockCandle CANDLE_RED;
 	public static BlockCandle CANDLE_BLACK;
 	
+	public static BlockCandle CANDLE_MYTHUS;
+	public static BlockCandle CANDLE_DRACO;
+	
 	public static void init() {
 		if (Config.ENABLE_CHAIRS) {
 			CHAIR_GREATWOOD = new BlockChair("greatwood");
@@ -151,8 +154,7 @@ public class ModBlocksRT {
 			CANDLE_VINCULUM = new BlockCandle("candle_vinculum");
 			CANDLE_PERMUTATIO = new BlockCandle("candle_permutatio");
 			CANDLE_PRAECANTATIO = new BlockCandle("candle_praecantatio");
-			CANDLE_ALKIMIA = new BlockCandle("candle_alkimia");
-			
+			CANDLE_ALKIMIA = new BlockCandle("candle_alkimia");	
 		}
 		if (RTConfiguration.enableColoredCandles) {
 			  CANDLE_WHITE = new BlockCandle("candle_white");
@@ -172,6 +174,11 @@ public class ModBlocksRT {
 			  CANDLE_RED = new BlockCandle("candle_red");
 			  CANDLE_BLACK = new BlockCandle("candle_black");
 		}
+		if (RTConfiguration.enableIceFireEssentiaCandles) {
+			  CANDLE_MYTHUS = new BlockCandle("candle_mythus");
+			  CANDLE_DRACO = new BlockCandle("candle_draco");
+		}
+		
 			
 		GameRegistry.findRegistry(Block.class).register(CINDERMOTE);
 		GameRegistry.findRegistry(Block.class).register(SHIMMERPETAL);
@@ -191,6 +198,11 @@ public class ModBlocksRT {
 			TABLE_SILVERWOOD.initModel();
 
 		}
+		if (RTConfiguration.enableIceFireEssentiaCandles) {
+			CANDLE_MYTHUS.initModel();
+			CANDLE_DRACO.initModel();
+		}
+		
 		if (RTConfiguration.enableEssentiaCandles) {
 			CANDLE_AER.initModel();
 			CANDLE_TERRA.initModel();

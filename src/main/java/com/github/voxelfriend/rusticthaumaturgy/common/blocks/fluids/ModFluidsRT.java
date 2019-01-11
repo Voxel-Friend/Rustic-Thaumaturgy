@@ -158,11 +158,23 @@ import thaumcraft.common.lib.potions.PotionSunScorned;
     				BLOCK_VISCOUS_WORT = new BlockFluidRT("viscous_wort", VISCOUS_WORT, Material.WATER);
     				BLOCK_VISCOUS_WORT.setQuantaPerBlock(4);
     				
+    				BLOCK_CINDERFIRE_WHISKEY = new BlockFluidRT("cinderfire_whiskey", CINDERFIRE_WHISKEY, Material.WATER);
+    				BLOCK_CINDERFIRE_WHISKEY.setQuantaPerBlock(4);
+    				
+    				BLOCK_SHIMMERDEW_SPIRITS = new BlockFluidRT("shimmerdew_spirits", SHIMMERDEW_SPIRITS, Material.WATER);
+    				BLOCK_SHIMMERDEW_SPIRITS.setQuantaPerBlock(4);
+    				
+    				BLOCK_VISCOUS_BREW = new BlockFluidRT("viscous_brew", VISCOUS_BREW, Material.WATER);
+    				BLOCK_VISCOUS_BREW.setQuantaPerBlock(4);
+    				
     			}
     			public static void initModels() {
     				BLOCK_CINDERFIRE_WORT.initModel();
     				BLOCK_SHIMMERDEW_WORT.initModel();
     				BLOCK_VISCOUS_WORT.initModel();
+    				BLOCK_CINDERFIRE_WHISKEY.initModel();
+    				BLOCK_SHIMMERDEW_SPIRITS.initModel();
+    				BLOCK_VISCOUS_BREW.initModel();
     		    }
     			
     			private static void register(Fluid fluid) {

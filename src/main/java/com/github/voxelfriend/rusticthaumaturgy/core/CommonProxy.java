@@ -14,6 +14,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.nbt.NBTTagByte;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraftforge.client.model.ItemLayerModel.Loader;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -77,7 +78,7 @@ public class CommonProxy {
     	ResearchCategory rusticthaumaturgy = ResearchCategories.getResearchCategory("RUSTIC_THAUMATURGY"); {
     	
     }
-	if (RTConfiguration.enableEssentiaCandles) {
+    	if (RTConfiguration.enableEssentiaCandles) {
 		ThaumcraftApi.addArcaneCraftingRecipe(new ResourceLocation("rusticthaumaturgy:candle_aer"),
 				
 				new ShapedArcaneRecipe(
@@ -990,6 +991,51 @@ public class CommonProxy {
                 new ScanBlockState(
                         "f_RT_IRONWOOD",
                         ModBlocks.LOG.getStateFromMeta(1),
+                        false
+                )
+        );
+        
+        ScanningManager.addScannableThing(
+                new ScanItem(
+                        "f_RT_CANDLES",
+                        new ItemStack(
+                                ModBlocks.CANDLE,
+                                1
+                        )
+                )
+        );
+        ScanningManager.addScannableThing(
+                new ScanBlockState(
+                        "f_RT_CANDLES",
+                        ModBlocks.CANDLE.getStateFromMeta(0),
+                        false
+                )
+        );
+        ScanningManager.addScannableThing(
+                new ScanBlockState(
+                        "f_RT_CANDLES",
+                        ModBlocks.CANDLE.getStateFromMeta(1),
+                        false
+                )
+        );
+        ScanningManager.addScannableThing(
+                new ScanBlockState(
+                        "f_RT_CANDLES",
+                        ModBlocks.CANDLE.getStateFromMeta(2),
+                        false
+                )
+        );
+        ScanningManager.addScannableThing(
+                new ScanBlockState(
+                        "f_RT_CANDLES",
+                        ModBlocks.CANDLE.getStateFromMeta(3),
+                        false
+                )
+        );
+        ScanningManager.addScannableThing(
+                new ScanBlockState(
+                        "f_RT_CANDLES",
+                        ModBlocks.CANDLE.getStateFromMeta(4),
                         false
                 )
         );

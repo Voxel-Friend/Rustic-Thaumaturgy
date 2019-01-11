@@ -2,6 +2,8 @@
 
 package com.github.voxelfriend.rusticthaumaturgy.crafting;
 
+//import static blusunrize.immersiveengineering.api.*;
+
 import static rustic.common.crafting.Recipes.brewingRecipes;
 import static rustic.common.crafting.Recipes.crushingTubRecipes;
 import static rustic.common.crafting.Recipes.evaporatingRecipes;
@@ -19,6 +21,7 @@ import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fluids.FluidStack;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -40,6 +43,7 @@ public class Recipes {
 		addEvaporatingRecipes();
 		//addCondenserRecipes();
 		addBrewingRecipes();
+		addSqueezingRecipes();
     }
     
    public static void addOreDictEntries() {
@@ -80,6 +84,13 @@ public class Recipes {
 		}
 	}
 	
+	public static void addSqueezingRecipes() {
+		if (Loader.isModLoaded("immersiveengineering")) {
+			
+		}
+			
+		
+	}
 	
 	public static void addCrushingTubRecipes() {
 		//Cinderfire Wort Crushing Recipes

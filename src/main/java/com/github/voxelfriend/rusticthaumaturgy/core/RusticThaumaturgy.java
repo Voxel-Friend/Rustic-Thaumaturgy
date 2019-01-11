@@ -46,7 +46,7 @@ public class RusticThaumaturgy {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public ItemStack getTabIconItem() {
-			return new ItemStack(ModBlocksRT.CHAIR_GREATWOOD);
+			return new ItemStack(ModBlocksRT.CINDERMOTE);
 		}
     };
 
