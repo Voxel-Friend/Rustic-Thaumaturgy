@@ -3,7 +3,11 @@ package com.github.voxelfriend.rusticthaumaturgy.configuration;
 import com.github.voxelfriend.rusticthaumaturgy.core.RusticThaumaturgy;
 
 import net.minecraftforge.common.config.Config;
-import net.minecraftforge.common.config.Config.*;
+import net.minecraftforge.common.config.Config.Comment;
+import net.minecraftforge.common.config.Config.RangeDouble;
+import net.minecraftforge.common.config.Config.RangeInt;
+import net.minecraftforge.common.config.Config.RequiresMcRestart;
+import net.minecraftforge.common.config.Config.Type;
 import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;

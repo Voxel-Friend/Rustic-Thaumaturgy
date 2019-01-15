@@ -3,31 +3,25 @@
 package com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids;
 
     import java.util.ArrayList;
-    import java.util.List;
-
+import java.util.List;
 
 import net.minecraft.block.material.Material;
-	import net.minecraft.block.state.IBlockState;
-	import net.minecraft.entity.Entity;
-	import net.minecraft.entity.player.EntityPlayer;
-	import net.minecraft.init.MobEffects;
-	import net.minecraft.item.ItemStack;
-	import net.minecraft.potion.PotionEffect;
-	import net.minecraft.util.DamageSource;
-	import net.minecraft.util.ResourceLocation;
-	import net.minecraft.util.math.BlockPos;
-	import net.minecraft.world.World;
-	import net.minecraftforge.fluids.Fluid;
-	import net.minecraftforge.fluids.FluidRegistry;
-	import net.minecraftforge.fluids.FluidStack;
-    import rustic.common.blocks.fluids.FluidBooze;
-    import rustic.common.blocks.fluids.FluidDrinkable;
-    import rustic.common.potions.PotionsRustic;
-    import thaumcraft.api.potions.PotionVisExhaust;
-    import thaumcraft.common.lib.potions.PotionWarpWard;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.MobEffects;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.world.World;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidRegistry;
+import net.minecraftforge.fluids.FluidStack;
+import rustic.common.blocks.fluids.FluidBooze;
+import rustic.common.blocks.fluids.FluidDrinkable;
+import thaumcraft.api.potions.PotionVisExhaust;
 import thaumcraft.common.lib.potions.PotionBlurredVision;
 import thaumcraft.common.lib.potions.PotionSunScorned;
-    import thaumcraft.common.lib.potions.PotionThaumarhia;
+import thaumcraft.common.lib.potions.PotionThaumarhia;
+import thaumcraft.common.lib.potions.PotionWarpWard;
 
     public class ModFluidsRT {
     	

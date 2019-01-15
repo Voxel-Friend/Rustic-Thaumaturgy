@@ -2,7 +2,6 @@ package com.github.voxelfriend.rusticthaumaturgy.core;
 
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItemsRT;
 
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;

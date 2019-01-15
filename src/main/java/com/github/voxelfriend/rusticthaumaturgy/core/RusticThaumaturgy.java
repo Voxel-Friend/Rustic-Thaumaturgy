@@ -2,23 +2,10 @@
 
 package com.github.voxelfriend.rusticthaumaturgy.core;
 
-import org.apache.logging.log4j.Logger;
-
-import com.github.voxelfriend.rusticthaumaturgy.crafting.Recipes;
 import com.github.voxelfriend.rusticthaumaturgy.common.blocks.ModBlocksRT;
-import com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids.ModFluidsRT;
-import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItemsRT;
-import com.github.voxelfriend.rusticthaumaturgy.core.CommonProxy;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.NonNullList;
-import net.minecraftforge.common.ForgeModContainer;
-import net.minecraftforge.fluids.Fluid;
-import net.minecraftforge.fluids.FluidStack;
-import net.minecraftforge.fluids.capability.IFluidHandlerItem;
-import net.minecraftforge.fluids.capability.wrappers.FluidBucketWrapper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
