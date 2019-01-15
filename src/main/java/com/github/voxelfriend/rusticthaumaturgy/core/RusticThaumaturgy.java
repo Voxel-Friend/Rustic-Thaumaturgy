@@ -3,6 +3,7 @@
 package com.github.voxelfriend.rusticthaumaturgy.core;
 
 import com.github.voxelfriend.rusticthaumaturgy.common.blocks.ModBlocksRT;
+import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItemsRT;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
@@ -33,7 +34,7 @@ public class RusticThaumaturgy {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public ItemStack getTabIconItem() {
-			return new ItemStack(ModBlocksRT.CINDERMOTE);
+			return new ItemStack(ModItemsRT.VISCAP);
 		}
     };
 
