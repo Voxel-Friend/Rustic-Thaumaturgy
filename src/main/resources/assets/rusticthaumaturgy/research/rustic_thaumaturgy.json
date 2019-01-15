@@ -179,7 +179,7 @@
                 },
 				{
 					"text": "research.RT_CANDLES.stage.2",
-					"recipes": ["rusticthaumaturgy:candle_ordo"]
+					"recipes": ["rusticthaumaturgy:candle"]
                 }
 			]
 		}

@@ -2,6 +2,8 @@ package com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids;
 
 import javax.annotation.Nonnull;
 
+import com.github.voxelfriend.rusticthaumaturgy.core.RusticThaumaturgy;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.BlockFaceShape;
@@ -21,7 +23,6 @@ import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import com.github.voxelfriend.rusticthaumaturgy.core.RusticThaumaturgy;
 
 public class BlockFluidRT extends BlockFluidClassic {
 	

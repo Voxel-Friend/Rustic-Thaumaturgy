@@ -2,8 +2,8 @@
 
 package com.github.voxelfriend.rusticthaumaturgy.core;
 
-import com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids.ModFluidsRT;
 import com.github.voxelfriend.rusticthaumaturgy.common.blocks.ModBlocksRT;
+import com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids.ModFluidsRT;
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItemsRT;
 
 import net.minecraftforge.client.event.ModelRegistryEvent;
