@@ -39,16 +39,16 @@ public class CandleRecipe extends ShapedArcaneRecipe{
 	
 	
 	@Override
-	public boolean matches(InventoryCrafting inv, World world) {
-		if(!(inv instanceof IArcaneWorkbench))return false;
-		
-		for(int i = 0; i < 9; i++) {
-			if(inv.getStackInSlot(i).getItem() == ItemsTC.crystalEssence && inv.getStackInSlot(i+3).getItem() == Items.IRON_INGOT) {
-				this.aspect = ((ItemGenericEssentiaContainer)ItemsTC.crystalEssence).getAspects(inv.getStackInSlot(i)).getAspects()[0];
-				if(CommonProxy.VANILLIA_ASPECTS.contains(aspect))return true;
-			}
-		}
-		return false;
+    public boolean matches(InventoryCrafting inv, World world) {
+        if(!(inv instanceof IArcaneWorkbench))return false;
+        
+        for(int i = 0; i < 9; i++) {
+            if(inv.getStackInSlot(i).getItem() == ItemsTC.crystalEssence && inv.getStackInSlot(i+3).getItem() == Items.IRON_INGOT) {
+                this.aspect = ((ItemGenericEssentiaContainer)ItemsTC.crystalEssence).getAspects(inv.getStackInSlot(i)).getAspects()[0];
+                if(CommonProxy.VANILLA_ASPECTS.contains(aspect))return true;
+            }
+        }
+        return false;
 	}
 
 	@Override

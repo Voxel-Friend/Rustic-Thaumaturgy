@@ -70,7 +70,7 @@ public class ModBlocksRT {
 
 		}
 		if (RTConfiguration.enableEssentiaCandles) {
-			CommonProxy.VANILLIA_ASPECTS.forEach(aspect -> {
+			CommonProxy.VANILLA_ASPECTS.forEach(aspect -> {
 					ModBlocksRT.CANDLES.put(aspect, new BlockCandle("candle_" + aspect.getName().toLowerCase()));			    
 			}); 			
 		}

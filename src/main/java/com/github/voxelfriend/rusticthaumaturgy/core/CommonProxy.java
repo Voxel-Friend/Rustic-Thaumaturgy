@@ -43,11 +43,11 @@ public class CommonProxy {
 	static ResourceLocation defaultGroup = new ResourceLocation("");
 	 
 	public static Configuration config;
-	public static List<Aspect> VANILLIA_ASPECTS;
+	public static List<Aspect> VANILLA_ASPECTS;
 
 	public void preInit(FMLPreInitializationEvent event) {
         MinecraftForge.EVENT_BUS.register(this);
-		VANILLIA_ASPECTS = Arrays.asList(new Aspect[]{Aspect.AIR, Aspect.EARTH, Aspect.FIRE, Aspect.WATER, Aspect.ORDER, Aspect.ENTROPY, Aspect.VOID, Aspect.LIGHT, Aspect.MOTION, Aspect.COLD, Aspect.CRYSTAL, Aspect.METAL, Aspect.LIFE, Aspect.DEATH, Aspect.ENERGY, Aspect.EXCHANGE, Aspect.MAGIC, Aspect.AURA, Aspect.ALCHEMY, Aspect.FLUX, Aspect.DARKNESS, Aspect.ELDRITCH, Aspect.FLIGHT, Aspect.PLANT, Aspect.TOOL, Aspect.CRAFT, Aspect.MECHANISM, Aspect.TRAP, Aspect.SOUL, Aspect.MIND, Aspect.SENSES, Aspect.AVERSION, Aspect.PROTECT, Aspect.DESIRE, Aspect.UNDEAD, Aspect.BEAST, Aspect.MAN});
+		VANILLA_ASPECTS = Arrays.asList(new Aspect[]{Aspect.AIR, Aspect.EARTH, Aspect.FIRE, Aspect.WATER, Aspect.ORDER, Aspect.ENTROPY, Aspect.VOID, Aspect.LIGHT, Aspect.MOTION, Aspect.COLD, Aspect.CRYSTAL, Aspect.METAL, Aspect.LIFE, Aspect.DEATH, Aspect.ENERGY, Aspect.EXCHANGE, Aspect.MAGIC, Aspect.AURA, Aspect.ALCHEMY, Aspect.FLUX, Aspect.DARKNESS, Aspect.ELDRITCH, Aspect.FLIGHT, Aspect.PLANT, Aspect.TOOL, Aspect.CRAFT, Aspect.MECHANISM, Aspect.TRAP, Aspect.SOUL, Aspect.MIND, Aspect.SENSES, Aspect.AVERSION, Aspect.PROTECT, Aspect.DESIRE, Aspect.UNDEAD, Aspect.BEAST, Aspect.MAN});
 		ModFluidsRT.init();
         ModBlocksRT.init();
         ModItemsRT.init();
