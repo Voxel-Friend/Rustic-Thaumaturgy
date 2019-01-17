@@ -56,11 +56,11 @@ public class CandleRecipe extends ShapedArcaneRecipe{
 
 	@Override
 	public ItemStack getCraftingResult(InventoryCrafting var1) {
-		return new ItemStack(ModBlocksRT.CANDLES.get(aspect));
+		return new ItemStack(ModBlocksRT.CANDLES.get(aspect), 3);
 	}
 
 	@Override
 	public ItemStack getRecipeOutput() {
-		return new ItemStack(ModBlocksRT.CANDLES.get(aspect));
+		return new ItemStack(ModBlocksRT.CANDLES.get(aspect), 3);
 	}
 }
