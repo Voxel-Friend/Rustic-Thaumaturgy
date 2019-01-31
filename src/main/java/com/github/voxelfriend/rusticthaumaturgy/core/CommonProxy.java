@@ -51,6 +51,7 @@ public class CommonProxy {
 		ModFluidsRT.init();
         ModBlocksRT.init();
         ModItemsRT.init();
+        initGolems();
     }
 	
 	public void init(FMLInitializationEvent event) {
@@ -77,6 +78,33 @@ public class CommonProxy {
         ItemFluidBottle.addFluid(ModFluidsRT.SHIMMERDEW_SPIRITS);
         ItemFluidBottle.addFluid(ModFluidsRT.VISCOUS_WORT);
         ItemFluidBottle.addFluid(ModFluidsRT.VISCOUS_BREW);
+    }
+    protected void initGolems() {
+    	ResearchCategory rusticthaumaturgy = ResearchCategories.getResearchCategory("RUSTIC_THAUMATURGY");
+    	GolemMaterial.register(
+                new GolemMaterial(
+                        "IRONWOOD",
+                        new String[]{"RT_MATSTUDIRONWOOD"},
+                        new ResourceLocation(
+                                "rusticthaumaturgy",
+                                "textures/entity/mat_ironwood.png"
+                        ),
+                        11045996,
+                        6,
+                        2,
+                        1,
+                        new ItemStack(
+                                ModBlocks.PLANKS,
+                                1,
+                                1
+                        ),
+                        new ItemStack(
+                                ItemsTC.mechanismSimple
+                        ),
+                        new EnumGolemTrait[]{EnumGolemTrait.BLASTPROOF}
+                        )
+        );
+    	
     }
     protected void initResearch() {    	
     	ResearchCategory rusticthaumaturgy = ResearchCategories.getResearchCategory("RUSTIC_THAUMATURGY"); 
@@ -177,31 +205,6 @@ public class CommonProxy {
 						new ItemStack(Items.WATER_BUCKET)
 			    )
 		);
-    	
-
-        GolemMaterial.register(
-                new GolemMaterial(
-                        "IRONWOOD",
-                        new String[]{"RT_MATSTUDIRONWOOD"},
-                        new ResourceLocation(
-                                "rusticthaumaturgy",
-                                "textures/entity/mat_ironwood.png"
-                        ),
-                        11045996,
-                        6,
-                        2,
-                        1,
-                        new ItemStack(
-                                ModBlocks.PLANKS,
-                                1,
-                                1
-                        ),
-                        new ItemStack(
-                                ItemsTC.mechanismSimple
-                        ),
-                        new EnumGolemTrait[]{EnumGolemTrait.BLASTPROOF}
-                        )
-        );
     	
         ScanningManager.addScannableThing(
                 new ScanItem(
