@@ -40,7 +40,6 @@ public class Recipes {
     public static void init() {
 		addCrushingTubRecipes();
 		addEvaporatingRecipes();
-		//addCondenserRecipes();
 		addBrewingRecipes();
 		addSqueezingRecipes();
     }
@@ -54,10 +53,13 @@ public class Recipes {
 	public static void initRecipes(RegistryEvent.Register<IRecipe> event) {
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "chandelier_brass"),
-				new ResourceLocation(RusticThaumaturgy.MODID, "chandelier_brass"), new ItemStack(ModBlocksRT.CHANDELIER_BRASS, 1), " B ", "C C", "BBB", 'B', new ItemStack(ItemsTC.ingots, 1, 2), 'C', new ItemStack(ModBlocksRT.CHAIN_BRASS));
+				new ResourceLocation(RusticThaumaturgy.MODID, "chandelier_brass"), new ItemStack(ModBlocksRT.CHANDELIER_BRASS, 4), " B ", "C C", "BBB", 'B', new ItemStack(ItemsTC.ingots, 1, 2), 'C', new ItemStack(ModBlocksRT.CHAIN_BRASS));
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "brass_lantern"),
 				new ResourceLocation(RusticThaumaturgy.MODID, "brass_lantern"), new ItemStack(ModBlocksRT.BRASS_LANTERN, 4), " B ", " C ", " B ", 'B', new ItemStack(ItemsTC.ingots, 1, 2), 'C', new ItemStack(Items.COAL, 1, 32767));
+		
+		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "chain_brass"),
+				new ResourceLocation(RusticThaumaturgy.MODID, "brass_lantern"), new ItemStack(ModBlocksRT.CHAIN_BRASS, 12), " B ", " B ", " B ", 'B', new ItemStack(ItemsTC.ingots, 1, 2));
 		
 		
 		if (Config.ENABLE_CHAIRS) {

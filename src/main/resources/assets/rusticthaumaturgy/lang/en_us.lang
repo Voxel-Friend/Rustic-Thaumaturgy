@@ -53,6 +53,48 @@ tile.rusticthaumaturgy.candle_vinculum.name=Vinculum Crystal Sconce
 tile.rusticthaumaturgy.candle_permutatio.name=Permutatio Crystal Sconce
 tile.rusticthaumaturgy.candle_praecantatio.name=Praecantatio Crystal Sconce
 tile.rusticthaumaturgy.candle_alkimia.name=Alkimia Crystal Sconce
+
+tile.rusticthaumaturgy.candle_brass_aer.name= Aer Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_terra.name=Terra Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_ignis.name=Ignis Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_aqua.name=Aqua Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_ordo.name=Ordo Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_perditio.name=Perditio Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_vacuos.name=Vacuos Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_auram.name=Auram Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_vitium.name=Vitium Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_lux.name=Lux Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_potentia.name=Potentia Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_motus.name=Motus Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_victus.name=Victus Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_mortuus.name=Mortuus Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_volatus.name=Volatus Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_tenebrae.name=Tenebrae Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_herba.name=Herba Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_spiritus.name=Spiritus Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_humanus.name=Humanus Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_bestia.name=Bestia Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_exanimis.name=Exanimis Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_cognitio.name=Cognitio Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_sensus.name=Sensus Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_metallum.name=Metallum Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_instrumentum.name=Instrumentum Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_aversio.name=Aversio Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_gelum.name=Gelum Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_vitreus.name=Vitreus Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_alienis.name=Alienis Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_praemunio.name=Praemunio Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_fabrico.name=Fabrico Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_desiderium.name=Desiderium Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_machina.name=Machina Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_vinculum.name=Vinculum Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_permutatio.name=Permutatio Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_praecantatio.name=Praecantatio Crystal Brass Sconce
+tile.rusticthaumaturgy.candle_brass_alkimia.name=Alkimia Crystal Brass Sconce
+
+tile.rustic.chandelier_brass.name=Brass Chandelier
+tile.rustic.chain_brass.name=Brass Chain
+tile.rusticthaumaturgy.brass_lantern.name=Brass Lantern
 ##########################################################################
 
 #Colored Rustic Candles
@@ -112,7 +154,6 @@ research.RT_BASE.stage.1=I see other people and their mundane furniture, and I s
 research.RT_BASE.stage.2=I see other people and their mundane furniture, and I scoff at them. I am a Thaumaturge! A purveyor of miracles! I think someone of my status should have furniture that reflects the mystical nature of my craft. The rare and magical Silverwood ought to supply the quality of wood I require, as well as the ancient Greatwood with its ties to the Old World. Truly there will be no greater pedestal to place myself upon, and with such regal surfaces upon which to place my beverage of choice.<BR> Come to think of it, shouldn't a Thurge of my status deserve an alcohol equal to my mysticality? The question is now, what should I use to make such a brew? I should ponder this...
 
 
-
 research.RT_CANDLES.title=The Crystal Sconce
 
 research.RT_CANDLES.stage.1= I wonder if there is any way to create a magical light source...
@@ -121,6 +162,10 @@ research.RT_CANDLES.stage.2=Turns out I can plop any essentia crystal at all ont
 
 research.f_RT_CANDLES.text=Examine Rustic Candles
 
+
+research.RT_BRASS_CANDLES.title=Brass Fixtures
+
+research.RT_BRASS_CANDLES.stage.1=Brass, being a sturdy material, is perfect for shaping into intricate decorations. It is aestetically pleasing too!
 
 
 research.RT_CINDERMOTE.title=Farming Cinderpearl

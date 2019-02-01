@@ -42,7 +42,7 @@ public class ModBlocksRT {
 	public static HashMap<Aspect, BlockCandle> CANDLES = new HashMap<Aspect, BlockCandle>();
 	public static HashMap<Aspect, BlockBrassCandle> BRASS_CANDLES = new HashMap<Aspect, BlockBrassCandle>();
 	
-	public static BlockChain CHAIN_BRASS;
+	public static BlockChainRT CHAIN_BRASS;
 	public static BlockChandelierRT CHANDELIER_BRASS;
 	public static BlockLanternRT BRASS_LANTERN;
 	
