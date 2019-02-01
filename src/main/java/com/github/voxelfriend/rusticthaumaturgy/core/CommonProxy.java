@@ -9,6 +9,7 @@ import com.github.voxelfriend.rusticthaumaturgy.common.blocks.ModBlocksRT;
 import com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids.ModFluidsRT;
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItemsRT;
 import com.github.voxelfriend.rusticthaumaturgy.configuration.RTConfiguration;
+import com.github.voxelfriend.rusticthaumaturgy.crafting.BrassCandleRecipe;
 import com.github.voxelfriend.rusticthaumaturgy.crafting.CandleRecipe;
 import com.github.voxelfriend.rusticthaumaturgy.crafting.Recipes;
 
@@ -111,6 +112,7 @@ public class CommonProxy {
 
     	if (RTConfiguration.enableEssentiaCandles) {    	    
     	    ThaumcraftApi.addArcaneCraftingRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "candle"), new CandleRecipe());
+    	    ThaumcraftApi.addArcaneCraftingRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "candle_brass"), new BrassCandleRecipe());
     	}
     	
     	ThaumcraftApi.addInfusionCraftingRecipe(

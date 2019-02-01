@@ -1,0 +1,9 @@
+{
+    "multipart": [
+        { "when": { "axis": "x" }, "apply": { "model": "rusticthaumaturgy:chain_brass_horizontal", "y": 90 } },
+        { "when": { "axis": "y" }, "apply": { "model": "rusticthaumaturgy:chain_brass" } },
+        { "when": { "axis": "z" }, "apply": { "model": "rusticthaumaturgy:chain_brass_horizontal" } },
+        { "when": { "axis": "x", "dangle": "true" }, "apply": { "model": "rusticthaumaturgy:chain_brass_dangle", "y": 90 } },
+        { "when": { "axis": "y|z", "dangle": "true" }, "apply": { "model": "rusticthaumaturgy:chain_brass_dangle" } }
+    ]
+}

@@ -13,6 +13,7 @@ import com.github.voxelfriend.rusticthaumaturgy.configuration.RTConfiguration;
 import com.github.voxelfriend.rusticthaumaturgy.core.CommonProxy;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
@@ -21,6 +22,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import rustic.common.Config;
+import rustic.common.blocks.BlockChain;
+import rustic.common.blocks.BlockChandelier;
 import thaumcraft.api.aspects.Aspect;
 import thaumcraft.api.blocks.BlocksTC;
 
@@ -37,6 +40,11 @@ public class ModBlocksRT {
 	public static final BlockCropViscap VISCAP = new BlockCropViscap();
 	
 	public static HashMap<Aspect, BlockCandle> CANDLES = new HashMap<Aspect, BlockCandle>();
+	public static HashMap<Aspect, BlockBrassCandle> BRASS_CANDLES = new HashMap<Aspect, BlockBrassCandle>();
+	
+	public static BlockChain CHAIN_BRASS;
+	public static BlockChandelierRT CHANDELIER_BRASS;
+	public static BlockLanternRT BRASS_LANTERN;
 	
 	public static BlockCandle CANDLE_WHITE;
 	public static BlockCandle CANDLE_ORANGE;
@@ -59,6 +67,11 @@ public class ModBlocksRT {
 	public static BlockCandle CANDLE_DRACO;
 	
 	public static void init() {
+		
+		CHAIN_BRASS = new BlockChainRT();
+		CHANDELIER_BRASS = new BlockChandelierRT();
+		BRASS_LANTERN = new BlockLanternRT(Material.IRON, "brass_lantern");
+	
 		if (Config.ENABLE_CHAIRS) {
 			CHAIR_GREATWOOD = new BlockChair("greatwood");
 			CHAIR_SILVERWOOD = new BlockChair("silverwood");
@@ -71,7 +84,8 @@ public class ModBlocksRT {
 		}
 		if (RTConfiguration.enableEssentiaCandles) {
 			CommonProxy.VANILLA_ASPECTS.forEach(aspect -> {
-					ModBlocksRT.CANDLES.put(aspect, new BlockCandle("candle_" + aspect.getName().toLowerCase()));			    
+					ModBlocksRT.CANDLES.put(aspect, new BlockCandle("candle_" + aspect.getName().toLowerCase()));
+					ModBlocksRT.BRASS_CANDLES.put(aspect, new BlockBrassCandle("candle_brass_" + aspect.getName().toLowerCase()));
 			}); 			
 		}
 		if (RTConfiguration.enableColoredCandles) {
@@ -106,6 +120,11 @@ public class ModBlocksRT {
 
 	@SideOnly(Side.CLIENT)
 	public static void initModels() {
+		
+		CHAIN_BRASS.initModel();
+		CHANDELIER_BRASS.initModel();
+		BRASS_LANTERN.initModel();
+		
 		if (Config.ENABLE_CHAIRS) {
 			CHAIR_GREATWOOD.initModel();
 			CHAIR_SILVERWOOD.initModel();
@@ -123,6 +142,7 @@ public class ModBlocksRT {
 		
 		if (RTConfiguration.enableEssentiaCandles) {
 			ModBlocksRT.CANDLES.values().forEach(candle -> candle.initModel());
+			ModBlocksRT.BRASS_CANDLES.values().forEach(candle -> candle.initModel());
 		}
 		
 		if (RTConfiguration.enableColoredCandles) {
