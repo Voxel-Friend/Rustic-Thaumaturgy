@@ -95,7 +95,7 @@
 			"key": "RT_CINDERFIRE",
 			"name": "research.RT_CINDERFIRE.title",
 			"icons": ["rustic:fluid_bottle;1;0;{Fluid: {FluidName: cinderfire_whiskey, Amount: 1000}}"],
-			"category": "RUSTIC_THAUMATURGY", "location": [-2,-4],
+			"category": "RUSTIC_THAUMATURGY", "location": [-2,-5],
 			"parents": ["INFUSION", "RT_CINDERMOTE@1"],
 			"meta": ["ROUND" , "HIDDEN"],
 			"stages": [
@@ -135,7 +135,7 @@
 			"key": "RT_VISCOUS",
 			"name": "research.RT_VISCOUS.title",
 			"icons": ["rustic:fluid_bottle;1;0;{Fluid: {FluidName: viscous_brew, Amount: 1000}}"],
-			"category": "RUSTIC_THAUMATURGY", "location": [2,-4],
+			"category": "RUSTIC_THAUMATURGY", "location": [2,-5],
 			"parents": ["INFUSION", "RT_VISCAP@1"],
 			"meta": ["ROUND" , "HIDDEN"],
 			"stages": [
@@ -155,7 +155,7 @@
 			"key": "RT_MATSTUDIRONWOOD",
 			"name": "research.RT_MATSTUDIRONWOOD.title",
 			"icons": [ "rustic:log;1;1;" ],
-			"category": "RUSTIC_THAUMATURGY", "location": [ -2, -6 ],
+			"category": "RUSTIC_THAUMATURGY", "location": [ -0, -6 ],
 			"parents": [ "MATSTUDWOOD", "MINDCLOCKWORK" ],
 			"meta": [ "ROUND", "HIDDEN" ],
 			"stages": [
@@ -169,7 +169,7 @@
 			"key": "RT_CANDLES",
 			"name": "research.RT_CANDLES.title",
 			"icons": [ "rustic:candle" ],
-			"category": "RUSTIC_THAUMATURGY", "location": [ 2, -6 ],
+			"category": "RUSTIC_THAUMATURGY", "location": [ 2, -7 ],
 			"parents": ["UNLOCKAUROMANCY" ],
 			"meta": [ "ROUND", "HIDDEN" ],
 			"stages": [
@@ -184,16 +184,30 @@
 			]
 		},
 		{
+			"key": "RT_BRASS_FIXTURES",
+			"name": "research.RT_BRASS_FIXTURES.title",
+			"icons": [ "rusticthaumaturgy:chandelier_brass" ],
+			"category": "RUSTIC_THAUMATURGY", "location": [ -2, -7 ],
+			"parents": ["METALLURGY" ],
+			"meta": [ "ROUND", "HIDDEN" ],
+			"stages": [
+				{
+					"text": "research.RT_BRASS_FIXTURES.stage.1",
+					"recipes": ["rusticthaumaturgy:brass_candle", "rusticthaumaturgy:brass_lantern", "rusticthaumaturgy:chain_brass", "rusticthaumaturgy:chandelier_brass"]
+                }
+			]
+		},
+		{
 			"key": "RT_BRASS_CANDLES",
 			"name": "research.RT_BRASS_CANDLES.title",
-			"icons": [ "rusticthaumaturgy:chandelier_brass" ],
-			"category": "RUSTIC_THAUMATURGY", "location": [ 0, -8 ],
-			"parents": ["METALLURGY", "RT_CANDLES" ],
+			"icons": [ "rustic:candle" ],
+			"category": "RUSTIC_THAUMATURGY", "location": [ 0, -9 ],
+			"parents": ["RT_BRASS_FIXTURES", "RT_CANDLES" ],
 			"meta": [ "ROUND", "HIDDEN" ],
 			"stages": [
 				{
 					"text": "research.RT_BRASS_CANDLES.stage.1",
-					"recipes": ["rusticthaumaturgy:candle_brass", "rusticthaumaturgy:brass_lantern", "rusticthaumaturgy:chain_brass", "rusticthaumaturgy:chandelier_brass"]
+					"recipes": ["rusticthaumaturgy:candle_brass"]
                 }
 			]
 		}

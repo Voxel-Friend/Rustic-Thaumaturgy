@@ -42,32 +42,51 @@ public class ModBlocksRT {
 	public static HashMap<Aspect, BlockCandle> CANDLES = new HashMap<Aspect, BlockCandle>();
 	public static HashMap<Aspect, BlockBrassCandle> BRASS_CANDLES = new HashMap<Aspect, BlockBrassCandle>();
 	
+	public static BlockTallow BRASS_CANDLE;
 	public static BlockChainRT CHAIN_BRASS;
 	public static BlockChandelierRT CHANDELIER_BRASS;
 	public static BlockLanternRT BRASS_LANTERN;
 	
-	public static BlockCandle CANDLE_WHITE;
-	public static BlockCandle CANDLE_ORANGE;
-	public static BlockCandle CANDLE_MAGENTA;
-	public static BlockCandle CANDLE_LIGHT_BLUE;
-	public static BlockCandle CANDLE_YELLOW;
-	public static BlockCandle CANDLE_LIME;
-	public static BlockCandle CANDLE_PINK;
-	public static BlockCandle CANDLE_GRAY;
-	public static BlockCandle CANDLE_LIGHT_GRAY;
-	public static BlockCandle CANDLE_CYAN;
-	public static BlockCandle CANDLE_PURPLE;
-	public static BlockCandle CANDLE_BLUE;
-	public static BlockCandle CANDLE_BROWN;
-	public static BlockCandle CANDLE_GREEN;
-	public static BlockCandle CANDLE_RED;
-	public static BlockCandle CANDLE_BLACK;
+	public static BlockTallow CANDLE_WHITE;
+	public static BlockTallow CANDLE_ORANGE;
+	public static BlockTallow CANDLE_MAGENTA;
+	public static BlockTallow CANDLE_LIGHT_BLUE;
+	public static BlockTallow CANDLE_YELLOW;
+	public static BlockTallow CANDLE_LIME;
+	public static BlockTallow CANDLE_PINK;
+	public static BlockTallow CANDLE_GRAY;
+	public static BlockTallow CANDLE_LIGHT_GRAY;
+	public static BlockTallow CANDLE_CYAN;
+	public static BlockTallow CANDLE_PURPLE;
+	public static BlockTallow CANDLE_BLUE;
+	public static BlockTallow CANDLE_BROWN;
+	public static BlockTallow CANDLE_GREEN;
+	public static BlockTallow CANDLE_RED;
+	public static BlockTallow CANDLE_BLACK;
+	
+	public static BlockTallow CANDLE_BRASS_WHITE;
+	public static BlockTallow CANDLE_BRASS_ORANGE;
+	public static BlockTallow CANDLE_BRASS_MAGENTA;
+	public static BlockTallow CANDLE_BRASS_LIGHT_BLUE;
+	public static BlockTallow CANDLE_BRASS_YELLOW;
+	public static BlockTallow CANDLE_BRASS_LIME;
+	public static BlockTallow CANDLE_BRASS_PINK;
+	public static BlockTallow CANDLE_BRASS_GRAY;
+	public static BlockTallow CANDLE_BRASS_LIGHT_GRAY;
+	public static BlockTallow CANDLE_BRASS_CYAN;
+	public static BlockTallow CANDLE_BRASS_PURPLE;
+	public static BlockTallow CANDLE_BRASS_BLUE;
+	public static BlockTallow CANDLE_BRASS_BROWN;
+	public static BlockTallow CANDLE_BRASS_GREEN;
+	public static BlockTallow CANDLE_BRASS_RED;
+	public static BlockTallow CANDLE_BRASS_BLACK;
 	
 	public static BlockCandle CANDLE_MYTHUS;
 	public static BlockCandle CANDLE_DRACO;
 	
 	public static void init() {
 		
+		BRASS_CANDLE = new BlockTallow(Material.IRON, "brass_candle", true);
 		CHAIN_BRASS = new BlockChainRT();
 		CHANDELIER_BRASS = new BlockChandelierRT();
 		BRASS_LANTERN = new BlockLanternRT(Material.IRON, "brass_lantern");
@@ -89,22 +108,22 @@ public class ModBlocksRT {
 			}); 			
 		}
 		if (RTConfiguration.enableColoredCandles) {
-			  CANDLE_WHITE = new BlockCandle("candle_white");
-			  CANDLE_ORANGE = new BlockCandle("candle_orange");
-			  CANDLE_MAGENTA = new BlockCandle("candle_magenta");
-			  CANDLE_LIGHT_BLUE = new BlockCandle("candle_light_blue");
-			  CANDLE_YELLOW = new BlockCandle("candle_yellow");
-			  CANDLE_LIME = new BlockCandle("candle_lime");
-			  CANDLE_PINK = new BlockCandle("candle_pink");
-			  CANDLE_GRAY = new BlockCandle("candle_gray");
-			  CANDLE_LIGHT_GRAY = new BlockCandle("candle_light_gray");
-			  CANDLE_CYAN = new BlockCandle("candle_cyan");
-			  CANDLE_PURPLE = new BlockCandle("candle_purple");
-			  CANDLE_BLUE = new BlockCandle("candle_blue");
-			  CANDLE_BROWN = new BlockCandle("candle_brown");
-			  CANDLE_GREEN = new BlockCandle("candle_green");
-			  CANDLE_RED = new BlockCandle("candle_red");
-			  CANDLE_BLACK = new BlockCandle("candle_black");
+			  CANDLE_WHITE = new BlockTallow("candle_white");
+			  CANDLE_ORANGE = new BlockTallow("candle_orange");
+			  CANDLE_MAGENTA = new BlockTallow("candle_magenta");
+			  CANDLE_LIGHT_BLUE = new BlockTallow("candle_light_blue");
+			  CANDLE_YELLOW = new BlockTallow("candle_yellow");
+			  CANDLE_LIME = new BlockTallow("candle_lime");
+			  CANDLE_PINK = new BlockTallow("candle_pink");
+			  CANDLE_GRAY = new BlockTallow("candle_gray");
+			  CANDLE_LIGHT_GRAY = new BlockTallow("candle_light_gray");
+			  CANDLE_CYAN = new BlockTallow("candle_cyan");
+			  CANDLE_PURPLE = new BlockTallow("candle_purple");
+			  CANDLE_BLUE = new BlockTallow("candle_blue");
+			  CANDLE_BROWN = new BlockTallow("candle_brown");
+			  CANDLE_GREEN = new BlockTallow("candle_green");
+			  CANDLE_RED = new BlockTallow("candle_red");
+			  CANDLE_BLACK = new BlockTallow("candle_black");
 		}
 		if (RTConfiguration.enableIceFireEssentiaCandles) {
 			  CANDLE_MYTHUS = new BlockCandle("candle_mythus");
@@ -121,6 +140,7 @@ public class ModBlocksRT {
 	@SideOnly(Side.CLIENT)
 	public static void initModels() {
 		
+		BRASS_CANDLE.initModel();
 		CHAIN_BRASS.initModel();
 		CHANDELIER_BRASS.initModel();
 		BRASS_LANTERN.initModel();

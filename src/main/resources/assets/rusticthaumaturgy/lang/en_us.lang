@@ -154,7 +154,7 @@ research.RT_BASE.stage.1=I see other people and their mundane furniture, and I s
 research.RT_BASE.stage.2=I see other people and their mundane furniture, and I scoff at them. I am a Thaumaturge! A purveyor of miracles! I think someone of my status should have furniture that reflects the mystical nature of my craft. The rare and magical Silverwood ought to supply the quality of wood I require, as well as the ancient Greatwood with its ties to the Old World. Truly there will be no greater pedestal to place myself upon, and with such regal surfaces upon which to place my beverage of choice.<BR> Come to think of it, shouldn't a Thurge of my status deserve an alcohol equal to my mysticality? The question is now, what should I use to make such a brew? I should ponder this...
 
 
-research.RT_CANDLES.title=The Crystal Sconce
+research.RT_CANDLES.title=Crystal Sconces
 
 research.RT_CANDLES.stage.1= I wonder if there is any way to create a magical light source...
 
@@ -163,9 +163,16 @@ research.RT_CANDLES.stage.2=Turns out I can plop any essentia crystal at all ont
 research.f_RT_CANDLES.text=Examine Rustic Candles
 
 
-research.RT_BRASS_CANDLES.title=Brass Fixtures
+research.RT_BRASS_FIXTURES.title=Brass Fixtures
 
-research.RT_BRASS_CANDLES.stage.1=Brass, being a sturdy material, is perfect for shaping into intricate decorations. It is aestetically pleasing too!
+research.RT_BRASS_FIXTURES.stage.1=Brass, being a sturdy material, is perfect for shaping into intricate decorations. It is aestetically pleasing too!
+
+
+research.RT_BRASS_CANDLES.title=Brass Crystal Sconces
+
+research.RT_BRASS_CANDLES.stage.1= I can craft Crystal Sconces with a Brass base as well!
+
+
 
 
 research.RT_CINDERMOTE.title=Farming Cinderpearl

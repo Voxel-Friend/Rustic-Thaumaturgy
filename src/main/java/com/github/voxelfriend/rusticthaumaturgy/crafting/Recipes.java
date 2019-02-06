@@ -30,6 +30,7 @@ import rustic.common.Config;
 import rustic.common.crafting.BrewingBarrelRecipe;
 import rustic.common.crafting.CrushingTubRecipe;
 import rustic.common.crafting.EvaporatingBasinRecipe;
+import rustic.common.items.ModItems;
 import thaumcraft.api.blocks.BlocksTC;
 import thaumcraft.api.items.ItemsTC;
 
@@ -52,6 +53,12 @@ public class Recipes {
 	@SubscribeEvent
 	public static void initRecipes(RegistryEvent.Register<IRecipe> event) {
 		
+		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "brass_candle_tallow"),
+				new ResourceLocation(RusticThaumaturgy.MODID, "brass_candle"), new ItemStack(ModBlocksRT.BRASS_CANDLE, 4), "S", "T", "I", 'S', new ItemStack(Items.STRING), 'T', new ItemStack(ModItems.TALLOW), 'I', new ItemStack(Items.IRON_INGOT));
+		
+		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "brass_candle_beeswax"),
+				new ResourceLocation(RusticThaumaturgy.MODID, "brass_candle"), new ItemStack(ModBlocksRT.BRASS_CANDLE, 4), "S", "B", "I", 'S', new ItemStack(Items.STRING), 'B', new ItemStack(ModItems.BEESWAX), 'I', new ItemStack(Items.IRON_INGOT));
+		
 		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "chandelier_brass"),
 				new ResourceLocation(RusticThaumaturgy.MODID, "chandelier_brass"), new ItemStack(ModBlocksRT.CHANDELIER_BRASS, 4), " B ", "C C", "BBB", 'B', new ItemStack(ItemsTC.ingots, 1, 2), 'C', new ItemStack(ModBlocksRT.CHAIN_BRASS));
 		
@@ -59,7 +66,7 @@ public class Recipes {
 				new ResourceLocation(RusticThaumaturgy.MODID, "brass_lantern"), new ItemStack(ModBlocksRT.BRASS_LANTERN, 4), " B ", " C ", " B ", 'B', new ItemStack(ItemsTC.ingots, 1, 2), 'C', new ItemStack(Items.COAL, 1, 32767));
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "chain_brass"),
-				new ResourceLocation(RusticThaumaturgy.MODID, "brass_lantern"), new ItemStack(ModBlocksRT.CHAIN_BRASS, 12), " B ", " B ", " B ", 'B', new ItemStack(ItemsTC.ingots, 1, 2));
+				new ResourceLocation(RusticThaumaturgy.MODID, "chain_brass"), new ItemStack(ModBlocksRT.CHAIN_BRASS, 12), " B ", " B ", " B ", 'B', new ItemStack(ItemsTC.ingots, 1, 2));
 		
 		
 		if (Config.ENABLE_CHAIRS) {
