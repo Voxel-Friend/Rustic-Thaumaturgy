@@ -16,85 +16,87 @@ item.viscap_spores.name=Viscap Spores
 ##########################################################################
 
 #Vis Crystal Rustic Candles
-tile.rusticthaumaturgy.candle_aer.name= Aer Crystal Sconce
-tile.rusticthaumaturgy.candle_terra.name=Terra Crystal Sconce
-tile.rusticthaumaturgy.candle_ignis.name=Ignis Crystal Sconce
-tile.rusticthaumaturgy.candle_aqua.name=Aqua Crystal Sconce
-tile.rusticthaumaturgy.candle_ordo.name=Ordo Crystal Sconce
-tile.rusticthaumaturgy.candle_perditio.name=Perditio Crystal Sconce
-tile.rusticthaumaturgy.candle_vacuos.name=Vacuos Crystal Sconce
-tile.rusticthaumaturgy.candle_auram.name=Auram Crystal Sconce
-tile.rusticthaumaturgy.candle_vitium.name=Vitium Crystal Sconce
-tile.rusticthaumaturgy.candle_lux.name=Lux Crystal Sconce
-tile.rusticthaumaturgy.candle_potentia.name=Potentia Crystal Sconce
-tile.rusticthaumaturgy.candle_motus.name=Motus Crystal Sconce
-tile.rusticthaumaturgy.candle_victus.name=Victus Crystal Sconce
-tile.rusticthaumaturgy.candle_mortuus.name=Mortuus Crystal Sconce
-tile.rusticthaumaturgy.candle_volatus.name=Volatus Crystal Sconce
-tile.rusticthaumaturgy.candle_tenebrae.name=Tenebrae Crystal Sconce
-tile.rusticthaumaturgy.candle_herba.name=Herba Crystal Sconce
-tile.rusticthaumaturgy.candle_spiritus.name=Spiritus Crystal Sconce
-tile.rusticthaumaturgy.candle_humanus.name=Humanus Crystal Sconce
-tile.rusticthaumaturgy.candle_bestia.name=Bestia Crystal Sconce
-tile.rusticthaumaturgy.candle_exanimis.name=Exanimis Crystal Sconce
-tile.rusticthaumaturgy.candle_cognitio.name=Cognitio Crystal Sconce
-tile.rusticthaumaturgy.candle_sensus.name=Sensus Crystal Sconce
-tile.rusticthaumaturgy.candle_metallum.name=Metallum Crystal Sconce
-tile.rusticthaumaturgy.candle_instrumentum.name=Instrumentum Crystal Sconce
-tile.rusticthaumaturgy.candle_aversio.name=Aversio Crystal Sconce
-tile.rusticthaumaturgy.candle_gelum.name=Gelum Crystal Sconce
-tile.rusticthaumaturgy.candle_vitreus.name=Vitreus Crystal Sconce
-tile.rusticthaumaturgy.candle_alienis.name=Alienis Crystal Sconce
-tile.rusticthaumaturgy.candle_praemunio.name=Praemunio Crystal Sconce
-tile.rusticthaumaturgy.candle_fabrico.name=Fabrico Crystal Sconce
-tile.rusticthaumaturgy.candle_desiderium.name=Desiderium Crystal Sconce
-tile.rusticthaumaturgy.candle_machina.name=Machina Crystal Sconce
-tile.rusticthaumaturgy.candle_vinculum.name=Vinculum Crystal Sconce
-tile.rusticthaumaturgy.candle_permutatio.name=Permutatio Crystal Sconce
-tile.rusticthaumaturgy.candle_praecantatio.name=Praecantatio Crystal Sconce
-tile.rusticthaumaturgy.candle_alkimia.name=Alkimia Crystal Sconce
+tile.rusticthaumaturgy.sconce_aer.name= Aer Crystal Sconce
+tile.rusticthaumaturgy.sconce_terra.name=Terra Crystal Sconce
+tile.rusticthaumaturgy.sconce_ignis.name=Ignis Crystal Sconce
+tile.rusticthaumaturgy.sconce_aqua.name=Aqua Crystal Sconce
+tile.rusticthaumaturgy.sconce_ordo.name=Ordo Crystal Sconce
+tile.rusticthaumaturgy.sconce_perditio.name=Perditio Crystal Sconce
+tile.rusticthaumaturgy.sconce_vacuos.name=Vacuos Crystal Sconce
+tile.rusticthaumaturgy.sconce_auram.name=Auram Crystal Sconce
+tile.rusticthaumaturgy.sconce_vitium.name=Vitium Crystal Sconce
+tile.rusticthaumaturgy.sconce_lux.name=Lux Crystal Sconce
+tile.rusticthaumaturgy.sconce_potentia.name=Potentia Crystal Sconce
+tile.rusticthaumaturgy.sconce_motus.name=Motus Crystal Sconce
+tile.rusticthaumaturgy.sconce_victus.name=Victus Crystal Sconce
+tile.rusticthaumaturgy.sconce_mortuus.name=Mortuus Crystal Sconce
+tile.rusticthaumaturgy.sconce_volatus.name=Volatus Crystal Sconce
+tile.rusticthaumaturgy.sconce_tenebrae.name=Tenebrae Crystal Sconce
+tile.rusticthaumaturgy.sconce_herba.name=Herba Crystal Sconce
+tile.rusticthaumaturgy.sconce_spiritus.name=Spiritus Crystal Sconce
+tile.rusticthaumaturgy.sconce_humanus.name=Humanus Crystal Sconce
+tile.rusticthaumaturgy.sconce_bestia.name=Bestia Crystal Sconce
+tile.rusticthaumaturgy.sconce_exanimis.name=Exanimis Crystal Sconce
+tile.rusticthaumaturgy.sconce_cognitio.name=Cognitio Crystal Sconce
+tile.rusticthaumaturgy.sconce_sensus.name=Sensus Crystal Sconce
+tile.rusticthaumaturgy.sconce_metallum.name=Metallum Crystal Sconce
+tile.rusticthaumaturgy.sconce_instrumentum.name=Instrumentum Crystal Sconce
+tile.rusticthaumaturgy.sconce_aversio.name=Aversio Crystal Sconce
+tile.rusticthaumaturgy.sconce_gelum.name=Gelum Crystal Sconce
+tile.rusticthaumaturgy.sconce_vitreus.name=Vitreus Crystal Sconce
+tile.rusticthaumaturgy.sconce_alienis.name=Alienis Crystal Sconce
+tile.rusticthaumaturgy.sconce_praemunio.name=Praemunio Crystal Sconce
+tile.rusticthaumaturgy.sconce_fabrico.name=Fabrico Crystal Sconce
+tile.rusticthaumaturgy.sconce_desiderium.name=Desiderium Crystal Sconce
+tile.rusticthaumaturgy.sconce_machina.name=Machina Crystal Sconce
+tile.rusticthaumaturgy.sconce_vinculum.name=Vinculum Crystal Sconce
+tile.rusticthaumaturgy.sconce_permutatio.name=Permutatio Crystal Sconce
+tile.rusticthaumaturgy.sconce_praecantatio.name=Praecantatio Crystal Sconce
+tile.rusticthaumaturgy.sconce_alkimia.name=Alkimia Crystal Sconce
 
-tile.rusticthaumaturgy.candle_brass_aer.name= Aer Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_terra.name=Terra Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_ignis.name=Ignis Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_aqua.name=Aqua Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_ordo.name=Ordo Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_perditio.name=Perditio Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_vacuos.name=Vacuos Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_auram.name=Auram Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_vitium.name=Vitium Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_lux.name=Lux Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_potentia.name=Potentia Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_motus.name=Motus Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_victus.name=Victus Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_mortuus.name=Mortuus Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_volatus.name=Volatus Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_tenebrae.name=Tenebrae Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_herba.name=Herba Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_spiritus.name=Spiritus Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_humanus.name=Humanus Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_bestia.name=Bestia Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_exanimis.name=Exanimis Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_cognitio.name=Cognitio Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_sensus.name=Sensus Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_metallum.name=Metallum Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_instrumentum.name=Instrumentum Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_aversio.name=Aversio Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_gelum.name=Gelum Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_vitreus.name=Vitreus Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_alienis.name=Alienis Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_praemunio.name=Praemunio Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_fabrico.name=Fabrico Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_desiderium.name=Desiderium Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_machina.name=Machina Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_vinculum.name=Vinculum Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_permutatio.name=Permutatio Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_praecantatio.name=Praecantatio Crystal Brass Sconce
-tile.rusticthaumaturgy.candle_brass_alkimia.name=Alkimia Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_aer.name= Aer Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_terra.name=Terra Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_ignis.name=Ignis Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_aqua.name=Aqua Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_ordo.name=Ordo Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_perditio.name=Perditio Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_vacuos.name=Vacuos Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_auram.name=Auram Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_vitium.name=Vitium Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_lux.name=Lux Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_potentia.name=Potentia Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_motus.name=Motus Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_victus.name=Victus Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_mortuus.name=Mortuus Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_volatus.name=Volatus Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_tenebrae.name=Tenebrae Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_herba.name=Herba Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_spiritus.name=Spiritus Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_humanus.name=Humanus Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_bestia.name=Bestia Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_exanimis.name=Exanimis Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_cognitio.name=Cognitio Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_sensus.name=Sensus Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_metallum.name=Metallum Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_instrumentum.name=Instrumentum Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_aversio.name=Aversio Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_gelum.name=Gelum Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_vitreus.name=Vitreus Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_alienis.name=Alienis Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_praemunio.name=Praemunio Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_fabrico.name=Fabrico Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_desiderium.name=Desiderium Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_machina.name=Machina Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_vinculum.name=Vinculum Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_permutatio.name=Permutatio Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_praecantatio.name=Praecantatio Crystal Brass Sconce
+tile.rusticthaumaturgy.sconce_brass_alkimia.name=Alkimia Crystal Brass Sconce
 
-tile.rustic.chandelier_brass.name=Brass Chandelier
+tile.rustic.chandelier_brass.name=Brass Chandelier Ring
 tile.rustic.chain_brass.name=Brass Chain
-tile.rusticthaumaturgy.brass_lantern.name=Brass Lantern
+tile.rustic.lantern_brass.name=Brass Lantern
+tile.rustic.candle_brass.name=Brass Candle
+tile.rustic.lattice_brass.name=Brass Lattice
 ##########################################################################
 
 #Colored Rustic Candles
@@ -154,13 +156,13 @@ research.RT_BASE.stage.1=I see other people and their mundane furniture, and I s
 research.RT_BASE.stage.2=I see other people and their mundane furniture, and I scoff at them. I am a Thaumaturge! A purveyor of miracles! I think someone of my status should have furniture that reflects the mystical nature of my craft. The rare and magical Silverwood ought to supply the quality of wood I require, as well as the ancient Greatwood with its ties to the Old World. Truly there will be no greater pedestal to place myself upon, and with such regal surfaces upon which to place my beverage of choice.<BR> Come to think of it, shouldn't a Thurge of my status deserve an alcohol equal to my mysticality? The question is now, what should I use to make such a brew? I should ponder this...
 
 
-research.RT_CANDLES.title=Crystal Sconces
+research.RT_SCONCES.title=Crystal Sconces
 
-research.RT_CANDLES.stage.1= I wonder if there is any way to create a magical light source...
+research.RT_SCONCES.stage.1= I wonder if there is any way to create a magical light source...
 
-research.RT_CANDLES.stage.2=Turns out I can plop any essentia crystal at all onto a candlestick and imbue it with aer and ignis to create a fancy light source. Neat!
+research.RT_SCONCES.stage.2=Turns out I can plop any essentia crystal at all onto a candlestick and imbue it with aer and ignis to create a fancy light source. Neat!
 
-research.f_RT_CANDLES.text=Examine Rustic Candles
+research.f_RT_SCONCES.text=Examine Rustic Candles
 
 
 research.RT_BRASS_FIXTURES.title=Brass Fixtures
@@ -168,9 +170,9 @@ research.RT_BRASS_FIXTURES.title=Brass Fixtures
 research.RT_BRASS_FIXTURES.stage.1=Brass, being a sturdy material, is perfect for shaping into intricate decorations. It is aestetically pleasing too!
 
 
-research.RT_BRASS_CANDLES.title=Brass Crystal Sconces
+research.RT_BRASS_SCONCES.title=Brass Crystal Sconces
 
-research.RT_BRASS_CANDLES.stage.1= I can craft Crystal Sconces with a Brass base as well!
+research.RT_BRASS_SCONCES.stage.1= I can craft Crystal Sconces with a Brass base as well!
 
 
 

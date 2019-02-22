@@ -1,9 +1,0 @@
-{
-	"variants": {
-		"facing=north":	{ "model": "rusticthaumaturgy:candle_exanimis_wall" },
-		"facing=east":	{ "model": "rusticthaumaturgy:candle_exanimis_wall", "y": 90},
-		"facing=south":	{ "model": "rusticthaumaturgy:candle_exanimis_wall", "y": 180 },
-		"facing=west":	{ "model": "rusticthaumaturgy:candle_exanimis_wall", "y": 270 },
-		"facing=up":	{ "model": "rusticthaumaturgy:candle_exanimis" }
-	}
-}

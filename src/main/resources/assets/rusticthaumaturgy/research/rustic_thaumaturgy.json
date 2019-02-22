@@ -166,20 +166,20 @@
 			]
 		},
 		{
-			"key": "RT_CANDLES",
-			"name": "research.RT_CANDLES.title",
+			"key": "RT_SCONCES",
+			"name": "research.RT_SCONCES.title",
 			"icons": [ "rustic:candle" ],
 			"category": "RUSTIC_THAUMATURGY", "location": [ 2, -7 ],
 			"parents": ["UNLOCKAUROMANCY" ],
 			"meta": [ "ROUND", "HIDDEN" ],
 			"stages": [
 				{
-					"text": "research.RT_CANDLES.stage.1",
+					"text": "research.RT_SCONCES.stage.1",
 					"required_research":["f_RT_CANDLES"]
                 },
 				{
-					"text": "research.RT_CANDLES.stage.2",
-					"recipes": ["rusticthaumaturgy:candle"]
+					"text": "research.RT_SCONCES.stage.2",
+					"recipes": ["rusticthaumaturgy:sconce"]
                 }
 			]
 		},
@@ -193,21 +193,21 @@
 			"stages": [
 				{
 					"text": "research.RT_BRASS_FIXTURES.stage.1",
-					"recipes": ["rusticthaumaturgy:brass_candle", "rusticthaumaturgy:brass_lantern", "rusticthaumaturgy:chain_brass", "rusticthaumaturgy:chandelier_brass"]
+					"recipes": ["rusticthaumaturgy:candle_brass", "rusticthaumaturgy:lantern_brass", "rusticthaumaturgy:chain_brass", "rusticthaumaturgy:chandelier_brass"]
                 }
 			]
 		},
 		{
-			"key": "RT_BRASS_CANDLES",
-			"name": "research.RT_BRASS_CANDLES.title",
+			"key": "RT_BRASS_SCONCES",
+			"name": "research.RT_BRASS_SCONCES.title",
 			"icons": [ "rustic:candle" ],
 			"category": "RUSTIC_THAUMATURGY", "location": [ 0, -9 ],
 			"parents": ["RT_BRASS_FIXTURES", "RT_CANDLES" ],
 			"meta": [ "ROUND", "HIDDEN" ],
 			"stages": [
 				{
-					"text": "research.RT_BRASS_CANDLES.stage.1",
-					"recipes": ["rusticthaumaturgy:candle_brass"]
+					"text": "research.RT_BRASS_SCONCES.stage.1",
+					"recipes": ["rusticthaumaturgy:sconce_brass"]
                 }
 			]
 		}

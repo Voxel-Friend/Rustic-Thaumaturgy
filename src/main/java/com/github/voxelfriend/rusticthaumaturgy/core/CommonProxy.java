@@ -9,8 +9,8 @@ import com.github.voxelfriend.rusticthaumaturgy.common.blocks.ModBlocksRT;
 import com.github.voxelfriend.rusticthaumaturgy.common.blocks.fluids.ModFluidsRT;
 import com.github.voxelfriend.rusticthaumaturgy.common.items.ModItemsRT;
 import com.github.voxelfriend.rusticthaumaturgy.configuration.RTConfiguration;
-import com.github.voxelfriend.rusticthaumaturgy.crafting.BrassCandleRecipe;
-import com.github.voxelfriend.rusticthaumaturgy.crafting.CandleRecipe;
+import com.github.voxelfriend.rusticthaumaturgy.crafting.BrassSconceRecipe;
+import com.github.voxelfriend.rusticthaumaturgy.crafting.SconceRecipe;
 import com.github.voxelfriend.rusticthaumaturgy.crafting.Recipes;
 
 import net.minecraft.init.Blocks;
@@ -111,8 +111,8 @@ public class CommonProxy {
     	ResearchCategory rusticthaumaturgy = ResearchCategories.getResearchCategory("RUSTIC_THAUMATURGY"); 
 
     	if (RTConfiguration.enableEssentiaCandles) {    	    
-    	    ThaumcraftApi.addArcaneCraftingRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "candle"), new CandleRecipe());
-    	    ThaumcraftApi.addArcaneCraftingRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "candle_brass"), new BrassCandleRecipe());
+    	    ThaumcraftApi.addArcaneCraftingRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "sconce"), new SconceRecipe());
+    	    ThaumcraftApi.addArcaneCraftingRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "sconce_brass"), new BrassSconceRecipe());
     	}
     	
     	ThaumcraftApi.addInfusionCraftingRecipe(
