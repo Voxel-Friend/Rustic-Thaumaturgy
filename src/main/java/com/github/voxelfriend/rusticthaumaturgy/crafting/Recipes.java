@@ -54,10 +54,10 @@ public class Recipes {
 	public static void initRecipes(RegistryEvent.Register<IRecipe> event) {
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "brass_candle_tallow"),
-				new ResourceLocation(RusticThaumaturgy.MODID, "candle_brass"), new ItemStack(ModBlocksRT.CANDLE_BRASS, 4), "S", "T", "I", 'S', new ItemStack(Items.STRING), 'T', new ItemStack(ModItems.TALLOW), 'I', new ItemStack(Items.IRON_INGOT));
+				new ResourceLocation(RusticThaumaturgy.MODID, "candle_brass"), new ItemStack(ModBlocksRT.CANDLE_BRASS, 4), "S", "T", "I", 'S', new ItemStack(Items.STRING), 'T', new ItemStack(ModItems.TALLOW), 'I', new ItemStack(ItemsTC.ingots, 1, 2));
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "brass_candle_beeswax"),
-				new ResourceLocation(RusticThaumaturgy.MODID, "candle_brass"), new ItemStack(ModBlocksRT.CANDLE_BRASS, 4), "S", "B", "I", 'S', new ItemStack(Items.STRING), 'B', new ItemStack(ModItems.BEESWAX), 'I', new ItemStack(Items.IRON_INGOT));
+				new ResourceLocation(RusticThaumaturgy.MODID, "candle_brass"), new ItemStack(ModBlocksRT.CANDLE_BRASS, 4), "S", "B", "I", 'S', new ItemStack(Items.STRING), 'B', new ItemStack(ModItems.BEESWAX), 'I', new ItemStack(ItemsTC.ingots, 1, 2));
 		
 		GameRegistry.addShapedRecipe(new ResourceLocation(RusticThaumaturgy.MODID, "chandelier_brass"),
 				new ResourceLocation(RusticThaumaturgy.MODID, "chandelier_brass"), new ItemStack(ModBlocksRT.CHANDELIER_BRASS, 2), " B ", "C C", "BBB", 'B', new ItemStack(ItemsTC.ingots, 1, 2), 'C', new ItemStack(ModBlocksRT.CHAIN_BRASS));
