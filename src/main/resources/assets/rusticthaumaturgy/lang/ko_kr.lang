@@ -1,0 +1,247 @@
+##########################################################################
+
+#Creative Tab
+itemGroup.rusticthaumaturgy.main=Rustic Thaumaturgy
+
+##########################################################################
+
+#Items
+item.rusticthaumaturgy.dust_tiny_blaze.name=블레이즈 파우더 작은 더미
+item.rusticthaumaturgy.cindermote.name=신더모트
+item.rusticthaumaturgy.shimmerpetal.name=시머페탈
+item.rusticthaumaturgy.viscap.name=비스캡
+item.cindermote_seeds.name=신더모트 씨앗
+item.shimmerpetal_bulb.name=시머페탈 구근
+item.viscap_spores.name=비스캡 포자
+##########################################################################
+
+#Vis Crystal Rustic Candles
+tile.rusticthaumaturgy.sconce_aer.name=Aer 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_terra.name=Terra 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_ignis.name=Ignis 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_aqua.name=Aqua 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_ordo.name=Ordo 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_perditio.name=Perditio 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_vacuos.name=Vacuos 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_auram.name=Auram 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_vitium.name=Vitium 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_lux.name=Lux 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_potentia.name=Potentia 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_motus.name=Motus 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_victus.name=Victus 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_mortuus.name=Mortuus 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_volatus.name=Volatus 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_tenebrae.name=Tenebrae 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_herba.name=Herba 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_spiritus.name=Spiritus 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_humanus.name=Humanus 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_bestia.name=Bestia 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_exanimis.name=Exanimis 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_cognitio.name=Cognitio 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_sensus.name=Sensus 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_metallum.name=Metallum 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_instrumentum.name=Instrumentum 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_aversio.name=Aversio 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_gelum.name=Gelum 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_vitreus.name=Vitreus 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_alienis.name=Alienis 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_praemunio.name=Praemunio 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_fabrico.name=Fabrico 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_desiderium.name=Desiderium 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_machina.name=Machina 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_vinculum.name=Vinculum 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_permutatio.name=Permutatio 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_praecantatio.name=Praecantatio 크리스탈 촛대
+tile.rusticthaumaturgy.sconce_alkimia.name=Alkimia 크리스탈 촛대
+
+tile.rusticthaumaturgy.sconce_brass_aer.name= Aer 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_terra.name=Terra 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_ignis.name=Ignis 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_aqua.name=Aqua 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_ordo.name=Ordo 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_perditio.name=Perditio 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_vacuos.name=Vacuos 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_auram.name=Auram 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_vitium.name=Vitium 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_lux.name=Lux 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_potentia.name=Potentia 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_motus.name=Motus 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_victus.name=Victus 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_mortuus.name=Mortuus 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_volatus.name=Volatus 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_tenebrae.name=Tenebrae 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_herba.name=Herba 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_spiritus.name=Spiritus 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_humanus.name=Humanus 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_bestia.name=Bestia 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_exanimis.name=Exanimis 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_cognitio.name=Cognitio 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_sensus.name=Sensus 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_metallum.name=Metallum 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_instrumentum.name=Instrumentum 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_aversio.name=Aversio 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_gelum.name=Gelum 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_vitreus.name=Vitreus 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_alienis.name=Alienis 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_praemunio.name=Praemunio 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_fabrico.name=Fabrico 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_desiderium.name=Desiderium 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_machina.name=Machina 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_vinculum.name=Vinculum 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_permutatio.name=Permutatio 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_praecantatio.name=Praecantatio 크리스탈 황동 촛대
+tile.rusticthaumaturgy.sconce_brass_alkimia.name=Alkimia 크리스탈 황동 촛대
+
+tile.rustic.chandelier_brass.name=황동 샹들리에 고리
+tile.rustic.chain_brass.name=황동 의자
+tile.rustic.lantern_brass.name=황동 랜턴
+tile.rustic.candle_brass.name=황동 양초
+tile.rustic.lattice_brass.name=황동 격자
+##########################################################################
+
+#Colored Rustic Candles
+tile.rusticthaumaturgy.candle_white.name=흰 촛대
+tile.rusticthaumaturgy.candle_orange.name=주황색 촛대
+tile.rusticthaumaturgy.candle_magenta.name=자홍색 촛대
+tile.rusticthaumaturgy.candle_light_blue.name=담청색 촛대
+tile.rusticthaumaturgy.candle_yellow.name=노란색 촛대
+tile.rusticthaumaturgy.candle_lime.name=라임색 촛대
+tile.rusticthaumaturgy.candle_pink.name=분홍색 촛대
+tile.rusticthaumaturgy.candle_gray.name=회색 촛대
+tile.rusticthaumaturgy.candle_light_gray.name=밝은 회색 촛대
+tile.rusticthaumaturgy.candle_cyan.name=청록색 촛대
+tile.rusticthaumaturgy.candle_purple.name=자주색 촛대
+tile.rusticthaumaturgy.candle_blue.name=파란색 촛대
+tile.rusticthaumaturgy.candle_brown.name=갈색 촛대
+tile.rusticthaumaturgy.candle_green.name=초록색 촛대
+tile.rusticthaumaturgy.candle_red.name=빨간색 촛대
+tile.rusticthaumaturgy.candle_black.name=검정색 촛대
+##########################################################################
+
+#Blocks
+tile.rusticthaumaturgy.chair_greatwood.name=그레이트우드 의자
+tile.rusticthaumaturgy.table_greatwood.name=그레이트우드 테이블
+tile.rusticthaumaturgy.chair_silverwood.name=실버우드 의자
+tile.rusticthaumaturgy.table_silverwood.name=실버우드 테이블
+tile.rusticthaumaturgy.cindermote.name=신더모트
+tile.rusticthaumaturgy.shimmerpetal.name=시머페탈
+tile.rusticthaumaturgy.viscap.name=비스캡
+
+##########################################################################
+
+#Fluids
+tile.rusticthaumaturgy.cinderfire_wort.name=신더파이어 워트
+fluid.cinderfire_wort=식더파이어 워트
+tile.rusticthaumaturgy.shimmerdew_wort.name=시머듀 워트
+fluid.shimmerdew_wort=시머듀 워트
+tile.rusticthaumaturgy.viscous_wort.name=비스코스 워트
+fluid.viscous_wort=비스코스 워트
+tile.rusticthaumaturgy.cinderfire_whiskey.name=신더파이어 위스키
+fluid.cinderfire_whiskey=신더파이어 위스키
+tile.rusticthaumaturgy.shimmerdew_spirits.name=시머듀 스피리츠
+fluid.shimmerdew_spirits=시머듀 스피리츠
+tile.rusticthaumaturgy.viscous_brew.name=비스코스 브루
+fluid.viscous_brew=비스코스 브루
+##########################################################################
+
+#Research
+
+tc.research_category.RUSTIC_THAUMATURGY=러스틱 사우마터지
+
+
+research.RT_BASE.title=러스틱 사우마터지
+
+research.RT_BASE.stage.1=나는 다른 사람들과 그들의 평범한 가구들을 보고, 그들을 비웃었다. 난 사우마터지(Thaumaturge)야! 기적을 행하는 자! 나와 같은 지위를 가진 사람이라면 자신이 제작한 신비한 가구들을 가지고 있어야 한다고 생각한다. 귀하고 마력이 있는 실버우드는 내가 필요로 하는 나무의 질 뿐만 아니라, 고대의 그레이트우드와 오래된 세계와의 유대를 공급해야 한다.<PAGE>내가 선택한 음료를 올려 놓을 수 있는 그런 장엄한 표면과 함께 더 큰 받침대는 없을 것이다.
+
+research.RT_BASE.stage.2=나는 다른 사람들과 그들의 평범한 가구들을 보고, 그들을 비웃었다. 난 사우마터지(Thaumaturge)야! 기적을 행하는 자! 나와 같은 지위를 가진 사람이라면 자신이 제작한 신비한 가구들을 가지고 있어야 한다고 생각한다. 귀하고 마력이 있는 실버우드는 내가 필요로 하는 나무의 질 뿐만 아니라, 고대의 그레이트우드와 오래된 세계와의 유대를 공급해야 한다. 내가 선택한 음료를 올려 놓을 수 있는 그런 장엄한 표면과 함께 더 큰 받침대는 없을 것이다.<BR> 생각해보면 내 지위의 마법사는 내 신비성에 버금가는 술을 받아야 하지 않을까? 문제는 그런 술을 만들기 위해 무엇을 사용해야 하는가? 곰곰히 생각해 봐야겠어...
+
+
+research.RT_SCONCES.title=크리스탈 촛대
+
+research.RT_SCONCES.stage.1= 마법의 광원을 만들 방법이 없을까...
+
+research.RT_SCONCES.stage.2=알고 보니 나는 어떤 에센시아 결정이든 촛대에 박아 놓고 그것을 Aer와 Ignis에 담궈 화려한 광원을 만들 수 있었어. 깔끔해!
+
+research.f_RT_CANDLES.text=러스틱 양초를 조사하세요
+
+
+research.RT_BRASS_FIXTURES.title=황동 설비
+
+research.RT_BRASS_FIXTURES.stage.1=튼튼한 재료인 황동은 복잡한 장식으로 장식하기에 안성맞춤이다. 그것은 미학적으로도 즐겁다!
+
+
+research.RT_BRASS_SCONCES.title=황동 크리스탈 촛대
+
+research.RT_BRASS_SCONCES.stage.1=나는 황동으로도 크리스탈 스콘을 만들 수 있어!
+
+
+
+
+research.RT_CINDERMOTE.title=신더펄 농사
+
+research.RT_CINDERMOTE.stage.1=따뜻한 신더펄은 겉보기에는 허약해 보임에도 불구하고 푹푹 찌는 뜨거운 사막에서 잘 자란다. 그것은 거친 바람과 강한 열을 끊임없이 견디지만, 땅에서 빼내는 즉시 먼지가 되어 그런 흥미로운 표본은 분명 훌륭한 알코올을 만들 것이다.<PAGE>불행하게도, 더 많은 것을 생산하기 위해 성장하는 환경을 재현하려는 어떠한 시도도 헛수고였다. 그러나, 사우마터지로서, 이것은 나를 멈추게 할 수 없다.
+
+research.RT_CINDERMOTE.stage.2=거의 다 왔어. 만약 내가 에센시아가 식물 성장에 어떤 영향을 미치는지 알게 된다면, 나는 분명히 양식가능한 신더펄을 만들 수 있을 것이다.
+
+research.RT_CINDERMOTE.stage.3=이게 그거야. 인퓨전을 함으로써 이제 신더펄에 대한 변종을 만들 수 있어... 아니 오히려 그것은 씨앗이야. 나는 이 새로운 식물을 "신더모트(Cindermote)"라고 부를 것이다. 이것은 내 블레이즈 가루의 재고에 좋은 징조다.
+
+
+
+research.RT_SHIMMERPETAL.title=시머리프 농사
+
+research.RT_SHIMMERPETAL.stage.1=지난 며칠 동안 연약한 시머리프의 우아함 보다 나의 관심을 더 사로잡은 것은 없다. 이렇게 희귀한 식물은 신비로운 실버우드 근처에서만 자란다. 아마도 나무의 순수성에 끌리는 것이 아닐까? 실버우드와 함께 식물을 가까이서 연구해 보면, 일종의 형태로 공존하는 것처럼 보일 것이다... 서로간의 보호?<PAGE>이 때문에 시머리프로 술을 만들어 내려고 하면 어떻게 될까 하는 생각이 든다. 하지만 우선, 나는 공급을 할 수 있는 방법을 찾아야 한다. 왜냐하면 식물이 더 많은 종류를 생산하기를 거부하기 때문에. 아마 내 연구가 그것의 해결책으로 찾아올 것이다...
+
+research.RT_SHIMMERPETAL.stage.2=거의 근접했어. 시머리프는 연약하지만 내 계산이 맞다면, 인퓨전으로 회복력을 인퓨전으로 증대를 받을 수 있을 것이다. 나는 에센시아가 식물에 어떤 영향을 미칠 수 있는지 연구할 필요가 있다.
+
+research.RT_SHIMMERPETAL.stage.3=유레카! 드디어 내 연구는 마침내 성과를 거두었다. 나는 이제 "시머페탈"이라고 부를 새로운 변종의 구근에 시머리프를 주입할 수 있어.
+
+
+
+research.RT_VISCAP.title=비쉬룸 농사
+
+research.RT_VISCAP.stage.1=나는 오늘 또 다른 기만하는 비쉬룸을 우연히 만났다. 이 화려한 버섯은 매혹적으로 보일지 모르지만, 만약 내가 포자에 숨을 들이 쉬었다면, 나는 점심시간을 잃어버리기 십상이다. 어떤 마니아들은 수프를 만들기는 커녕 이것마저 모으다니 믿을 수가 없군! 한편, 같은 마니아들은 그 수프가 부작용에 시달리면서도 그들의 기량을 향상 시켰다고 주장한다. 나의 양조 사업을 위해 그것의 사용을 실험해 볼 수 있다면 좋겠지만, 나는 노력함에도 불구하고 이것의 재배를 할 수 없을 것 같기에 나는 더 많은 것들을 찾아야 할 것이다... 그것을 재배하는 특이한 방법.
+
+research.RT_VISCAP.stage.2=나는 비쉬룸을 번식되도록 애쓰는 데 시간을 낭비하는 대신, 사용법을 확대하여 나는 인퓨전을 사용하여 새로운 품종을 만들 것이다. 난 거의 그것에 가까워졌어... 아마도 나는 에센시아가 식물에 어떤 영향을 미치는지 연구할 필요가 있을까?
+
+research.RT_VISCAP.stage.3=비쉬룸에 대한 불편하지만 유익한 연구를 한 후, 나는 이제 비쉬룸에서 영감을 받은 창작물에 포자를 주입할 방법을 갖게 되었는데, 이것은 앞으로 비스캡(Viscap)으로 알려지게 될 것이다.
+
+
+
+research.RT_CINDERFIRE.title=신더파이어 위스키
+
+research.RT_CINDERFIRE.stage.1=신더파이어 위스키는 신더펄로 만든 원료로 만들어 졌으며, 독특하고 매운 맛을 가지고 있으며, 내려가는 것이 다소 거칩니다. 그것을 마시는 것은 보통 술 처럼 몸을 따뜻하게 하는 것처럼 보이지만, 보통의 술과 달리 영혼도 따뜻하게 하는것 같아! 영혼이 너무 뜨거워지면 무슨 일이 일어날지 알 수 없으니, 마시는것에 주의해야겠다.
+
+research.RT_CINDERFIRE.cindermote=내가 새로 발견한 신더모트를 으깨어 워트로 바꿔라.
+
+
+
+research.RT_SHIMMERDEW.title=시머듀 스피리츠
+
+research.RT_SHIMMERDEW.stage.1=시머리프로 만든 시머듀는 부드럽고 은은하며 거의 달콤한 맛을 가지고 있으며, 알코올의 함량은 상당하지만 거의 검출되지 않는다. 나는 그것을 끓일 때 신경을 써야 하는데, 그것이 마음을 진정시켜주는 특성에도 불구하고 나쁜 배합은 나를 매우 아프게 할 수 있기 때문이다. 나는 마법에 의한 소화기 감염이 가져올 수 있는 증상 종류를 생각하면 오싹해진다.
+
+research.RT_SHIMMERDEW.shimmerpetal=내가 새로 발견한 시머페탈을 으깨어 워트로 바꿔라.
+
+
+
+research.RT_VISCOUS.title=비스코스 양조
+
+research.RT_VISCOUS.stage.1=비스코스 브루는 비쉬룸으로 만든 워트로 만든 것으로, 강하고 흙빛이 도는 맛을 가지고 있으며, 그것은 확실히 펀치를 날린다! 그것을 마시면 내 마음은 거의 고통스러울 정도로 집중 되어 있고, 나는 다급함을 느끼며 움직이는 자신을 발견하게 된다. 이 술의 양조는 조심해서 다루어야 한다. 왜냐하면 질이 나쁘면 내 마음에 많은 영향을 미칠 수 있기 때문이다.
+
+research.RT_VISCOUS.viscap=내가 새로 발견한 비쉬캡을 으깨어 워트로 바꿔라.
+
+
+
+research.RT_MATSTUDIRONWOOD.title=재료 연구: 아이언우드
+
+research.RT_MATSTUDIRONWOOD.stage.1=아이언우드는 그레이트우드보다 무겁지만, 철처럼 무겁지는 않다. 그것은 오히려 폭발에 저항이 있다.
+
+research.f_RT_IRONWOOD.text=아이언우드 원목을 조사하세요
+
+##########################################################################
+
+#Golem
+
+golem.material.ironwood=아이언우드
+golem.material.text.ironwood=아이언우드로 만들어진 골렘은 가볍고 민첩하며, 그레이트우드보다 튼튼하지만, 철보단 덜 하고 폭발에 저항력이 있습니다.
+
+##########################################################################
