@@ -20,7 +20,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class RusticThaumaturgy {
 	public static final String MODID = "rusticthaumaturgy";
 	public static final String NAME = "Rustic Thaumaturgy";
-	public static final String VERSION = "4.4";
+	public static final String VERSION = "4.4a";
 
 	@SidedProxy(clientSide = "com.github.voxelfriend.rusticthaumaturgy.core.ClientProxy", serverSide = "com.github.voxelfriend.rusticthaumaturgy.core.CommonProxy")
 	public static CommonProxy proxy;

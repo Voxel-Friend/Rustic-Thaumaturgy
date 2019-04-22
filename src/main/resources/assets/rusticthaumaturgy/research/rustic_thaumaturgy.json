@@ -202,7 +202,7 @@
 			"name": "research.RT_BRASS_SCONCES.title",
 			"icons": [ "rustic:candle" ],
 			"category": "RUSTIC_THAUMATURGY", "location": [ 0, -9 ],
-			"parents": ["RT_BRASS_FIXTURES", "RT_CANDLES" ],
+			"parents": ["RT_BRASS_FIXTURES", "RT_SCONCES" ],
 			"meta": [ "ROUND", "HIDDEN" ],
 			"stages": [
 				{
